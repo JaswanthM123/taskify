@@ -39,6 +39,7 @@ build/
 # Ignore environment and config files that may contain secrets
 .env
 application-*.properties
+application.properties
 application-*.yml
 application-*.yaml
 
