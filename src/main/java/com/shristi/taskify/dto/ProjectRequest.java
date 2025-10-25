@@ -1,5 +1,6 @@
 package com.shristi.taskify.dto;
 
+
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -9,8 +10,7 @@ import lombok.Setter;
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
-public class LoginResponse {
-    private String bearerToken;
-    private String userName;
-    private String role;
+public class ProjectRequest {
+    private String projectTitle;
+    private String projectDescription;
 }

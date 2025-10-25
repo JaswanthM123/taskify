@@ -1,10 +1,7 @@
 package com.shristi.taskify.controller;
 
 
-import com.shristi.taskify.dto.AuthRequest;
-import com.shristi.taskify.dto.AuthResponse;
-import com.shristi.taskify.dto.LoginRequest;
-import com.shristi.taskify.dto.LoginResponse;
+import com.shristi.taskify.dto.*;
 import com.shristi.taskify.service.declaration.IAuthService;
 import jakarta.validation.Valid;
 import org.springframework.http.HttpStatus;
@@ -31,5 +28,9 @@ public class AuthController {
     public ResponseEntity<LoginResponse> login(@RequestBody LoginRequest loginRequest) {
         LoginResponse response = authService.login(loginRequest);
         return ResponseEntity.ok(response);
+    }
+    @PostMapping("/registeradmin")
+    public AuthResponse registerAdmin(@RequestBody AuthRequest authRequest) {
+        return authService.registerAdmin(authRequest);
     }
 }

@@ -1,7 +1,8 @@
 package com.shristi.taskify.model;
 
-public enum Status {
+public enum TaskStatus {
     TO_DO,
     IN_PROGRESS,
     DONE
 }
+
