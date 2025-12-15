@@ -23,5 +23,6 @@ services:
       SPRING_DATASOURCE_USERNAME: root
       SPRING_DATASOURCE_PASSWORD: root
 
+
 volumes:
   my-db-volume:
