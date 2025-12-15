@@ -16,7 +16,7 @@ import lombok.*;
 import java.util.List;
 
 @Entity
-@Table(name = "users", schema = "taskify")
+@Table(name = "users")
 @Getter
 @Setter
 @Builder

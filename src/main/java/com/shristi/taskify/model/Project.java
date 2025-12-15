@@ -22,7 +22,7 @@ import java.util.List;
 
 
 @Entity
-@Table(name = "projects",schema = "taskify")
+@Table(name = "projects")
 @Getter
 @Setter
 @Builder

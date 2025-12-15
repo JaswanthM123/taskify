@@ -24,7 +24,7 @@ import java.time.LocalDateTime;
 
 
 @Entity
-@Table(name = "tasks",schema = "taskify")
+@Table(name = "tasks")
 @Getter
 @Setter
 @Builder
